@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>psr</string>
+	<string>lfn</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong, readonly) &lt;#type#&gt; *&lt;#name#&gt;</string>
+	<string>NSLog(@"%s", __func__);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7673BB72-6355-4D45-B6D7-E36B4A79C835</string>
+	<string>F89BB5AE-579F-4118-A9F5-5E87166662D2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Log Function Name</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property For Strong And Readonly</string>
+	<string>Log Function Name</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
