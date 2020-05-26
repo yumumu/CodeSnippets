@@ -10,14 +10,11 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (CGSize)sizeThatFits:(CGSize)size {
-    CGSize resultSize = size;
-    
-    CGFloat resultWidth = &lt;#0#&gt;;
-    resultSize.width = MIN(resultWidth, size.width);
-    
-    CGFloat resultHeight = &lt;#0#&gt;;
-    resultSize.height = resultHeight;
-    
+    CGSize resultSize = CGSizeMake(size.width, 0);
+    CGFloat resultHeight = 0;
+    &lt;#calc code#&gt;
+
+    resultSize.height = fmin(resultHeight, size.height);
     return resultSize;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
