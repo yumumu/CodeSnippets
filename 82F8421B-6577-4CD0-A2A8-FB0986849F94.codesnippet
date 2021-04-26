@@ -3,20 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>init</string>
+	<string>yslinit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self = [super init];
-if (!self) {
-    return nil;
-}
+	<string>- (instancetype)init {
+    self = [super init];
+    if (!self) {
+        return nil;
+    }
 
-&lt;#initializations#&gt;
+    &lt;#initializations#&gt;
 
-return self;</string>
+    return self;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>82F8421B-6577-4CD0-A2A8-FB0986849F94</string>
 	<key>IDECodeSnippetLanguage</key>
