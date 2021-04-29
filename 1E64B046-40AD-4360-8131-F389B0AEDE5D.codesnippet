@@ -3,30 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sl_init</string>
+	<string>sl_initWithFrame</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)init {
-    self = [super init];
+	<string>- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
     if (self) {
-        &lt;#initializations#&gt;
+        &lt;#statements#&gt;
     }
     return self;
-}</string>
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>82F8421B-6577-4CD0-A2A8-FB0986849F94</string>
+	<string>1E64B046-40AD-4360-8131-F389B0AEDE5D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Designated incantation for your designated initializers</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>init</string>
+	<string>initWithFrame</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,30 +3,37 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sl_init</string>
+	<string>sl_cellinit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>All</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)init {
-    self = [super init];
-    if (self) {
-        &lt;#initializations#&gt;
+	<string>- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
+        [self setupViews];
     }
     return self;
+}
+
+- (void)setupViews {
+    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>82F8421B-6577-4CD0-A2A8-FB0986849F94</string>
+	<string>707AE955-6B6C-4FDD-BA08-61D9CE1DF9E2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Designated incantation for your designated initializers</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>init</string>
+	<string>UITableViewCell initWithStyle</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

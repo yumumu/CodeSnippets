@@ -3,30 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sl_init</string>
+	<string>g&amp;s</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)init {
-    self = [super init];
-    if (self) {
-        &lt;#initializations#&gt;
-    }
-    return self;
-}</string>
+	<string>#pragma mark - Getters &amp; Setters
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>82F8421B-6577-4CD0-A2A8-FB0986849F94</string>
+	<string>68A48925-63DB-488C-BB61-23BD9492D479</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Designated incantation for your designated initializers</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>init</string>
+	<string>Getters &amp; Setters</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

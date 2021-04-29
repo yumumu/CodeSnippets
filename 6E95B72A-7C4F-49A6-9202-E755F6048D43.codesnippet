@@ -16,14 +16,12 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView
-numberOfRowsInSection:(NSInteger)section
-{
+numberOfRowsInSection:(NSInteger)section {
     return &lt;#number#&gt;;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
-cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
+cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#reuseIdentifier#&gt; forIndexPath:&lt;#indexPath#&gt;];
     
     [self configureCell:cell forRowAtIndexPath:indexPath];
@@ -32,8 +30,7 @@ cellForRowAtIndexPath:(NSIndexPath *)indexPath
 }
 
 - (void)configureCell:(UITableViewCell *)cell
-forRowAtIndexPath:(NSIndexPath *)indexPath
-{
+forRowAtIndexPath:(NSIndexPath *)indexPath {
     &lt;#statements#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

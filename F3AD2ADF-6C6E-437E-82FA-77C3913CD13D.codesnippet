@@ -12,8 +12,7 @@
 	<string>#pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView
-didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
+didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     &lt;#statements#&gt;
 }
 </string>

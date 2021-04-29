@@ -12,14 +12,12 @@
 	<string>#pragma mark - UICollectionViewDataSource
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView
-numberOfItemsInSection:(NSInteger)section
-{
+numberOfItemsInSection:(NSInteger)section {
     return &lt;#numberOfItemsInSection#&gt;;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
-cellForItemAtIndexPath:(NSIndexPath *)indexPath
-{
+cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:&lt;#reuseIdentifier#&gt; forIndexPath:indexPath];
     
     [self configureCell:cell forItemAtIndexPath:indexPath];
@@ -28,8 +26,7 @@ cellForItemAtIndexPath:(NSIndexPath *)indexPath
 }
 
 - (void)configureCell:(UICollectionViewCell *)cell
-forItemAtIndexPath:(NSIndexPath *)indexPath
-{
+forItemAtIndexPath:(NSIndexPath *)indexPath {
     &lt;# statements #&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
