@@ -3,15 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>hexColor0X</string>
+	<string>dlgetter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue &amp; 0xFF0000) &gt;&gt; 16))/255.0 green:((float)((rgbValue &amp; 0xFF00) &gt;&gt; 8))/255.0 blue:((float)(rgbValue &amp; 0xFF))/255.0 alpha:1.0]</string>
+	<string>- (UILabel *)label {
+    if (!_label) {
+        _label = [UILabel new];
+        _label.textColor = [UIColor blackColor];
+        _label.font = [UIFont systemFontOfSize:14];
+        _label.textAlignment = NSTextAlignmentLeft;
+    }
+    return _label;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F9FF25C8-4BB7-4CFD-97DC-0EF686D6EA9D</string>
+	<string>CA5E264F-B35E-44EF-8E56-6309E11CE3A7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -19,10 +28,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>hexColor0x</string>
+	<string>默认 label getter 方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
