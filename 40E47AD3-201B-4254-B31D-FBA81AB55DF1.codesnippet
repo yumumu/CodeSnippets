@@ -10,13 +10,23 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// Assumes input like "#00FF00" (#RRGGBB).
+	<string>// Assumes input like "#00FF00" or "0x00FF00" or "00FF00"
 + (UIColor *)colorFromHexString:(NSString *)hexString {
+    NSString *lowerHexString = hexString.lowercaseString;
     unsigned rgbValue = 0;
     NSScanner *scanner = [NSScanner scannerWithString:hexString];
-    [scanner setScanLocation:1]; // bypass '#' character
+    NSUInteger location = 0;
+    if ([lowerHexString hasPrefix:@"#"]) {
+        location = 1;
+    } else if ([lowerHexString hasPrefix:@"0x"]) {
+        location = 2;
+    }
+    [scanner setScanLocation:location]; // bypass '#' or '0x' character
     [scanner scanHexInt:&amp;rgbValue];
-    return [UIColor colorWithRed:((rgbValue &amp; 0xFF0000) &gt;&gt; 16)/255.0 green:((rgbValue &amp; 0xFF00) &gt;&gt; 8)/255.0 blue:(rgbValue &amp; 0xFF)/255.0 alpha:1.0];
+    return [UIColor colorWithRed:((float)((rgbValue &amp; 0xFF0000) &gt;&gt; 16)) / 255.0
+                           green:((float)((rgbValue &amp; 0x00FF00) &gt;&gt; 8)) / 255.0
+                            blue:((float)((rgbValue &amp; 0x0000FF) &gt;&gt; 0)) / 255.0
+                           alpha:1.0];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>40E47AD3-201B-4254-B31D-FBA81AB55DF1</string>

@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-uicollectionviewdatasource</string>
+	<string>s_cvds</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        //MARK: UICollectionViewDataSource
+	<string>        // MARK: UICollectionViewDataSource
 
         func numberOfSections(in collectionView: UICollectionView) -&gt; Int {
             return &lt;#numberOfSections#&gt;

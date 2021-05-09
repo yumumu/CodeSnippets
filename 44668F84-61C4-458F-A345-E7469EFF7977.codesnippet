@@ -3,25 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tfgetter</string>
+	<string>sl_setupSubviews</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UITextField *)&lt;#textField#&gt; {
-    if (!_&lt;#textField#&gt;) {
-        _&lt;#textField#&gt; = [UITextField new];
-        _&lt;#textField#&gt;.clearButtonMode = UITextFieldViewModeWhileEditing;
-        _&lt;#textField#&gt;.font = [UIFont systemFontOfSize:14];
-        _&lt;#textField#&gt;.borderStyle = UITextBorderStyleRoundedRect;
-        _&lt;#textField#&gt;.placeholder = @"Input Here";
-    }
-    return _&lt;#textField#&gt;;
+	<string>- (void)setupSubviews {
+    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7C4099AC-6C41-4E3A-8BAA-5B6215A88E80</string>
+	<string>44668F84-61C4-458F-A345-E7469EFF7977</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -29,7 +21,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>textField getter 方法</string>
+	<string>setupSubviews Method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
