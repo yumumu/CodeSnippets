@@ -3,32 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_2td</string>
+	<string>lvtf</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    // MARK: UITableViewDelegate
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -&gt; CGFloat {
-        
-    }</string>
+	<string>    lazy var &lt;#name#&gt;TextField: UITextField = {
+        let textField = UITextField()
+        textField.placeholder = ""
+        textField.clearButtonMode = .whileEditing
+        textField.font = UIFont.systemFont(ofSize: &lt;#fontSize#&gt;)
+        return textField
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>48DC3AAA-1944-41A5-B312-8B6CDA1E6DD3</string>
+	<string>1C316615-6B1A-4DAF-8F50-CD74A0CC4C08</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift TableViewDelegate Two Methods</string>
+	<string>Swift Lazy textField</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

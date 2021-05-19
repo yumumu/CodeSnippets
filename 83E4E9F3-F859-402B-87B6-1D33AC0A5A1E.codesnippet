@@ -3,32 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_2td</string>
+	<string>lviv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    // MARK: UITableViewDelegate
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -&gt; CGFloat {
-        
-    }</string>
+	<string>    lazy var &lt;#name#&gt;ImageView: UIImageView = {
+        let imageView = UIImageView()
+        return imageView
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>48DC3AAA-1944-41A5-B312-8B6CDA1E6DD3</string>
+	<string>83E4E9F3-F859-402B-87B6-1D33AC0A5A1E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift TableViewDelegate Two Methods</string>
+	<string>Swift lazy ver UIImageViwe</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
