@@ -3,25 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>active8Constaint</string>
+	<string>astlbt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
-		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>        NSLayoutConstraint.activate([
+            &lt;#view1#&gt;.topAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.topAnchor, constant: 0),
             &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.leadingAnchor, constant: 0),
-            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.trailingAnchor, constant: 0),
             &lt;#view1#&gt;.bottomAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.bottomAnchor, constant: 0),
-            &lt;#view1#&gt;.rightAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.rightAnchor, constant: 0),
-            &lt;#view1#&gt;.centerXAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.centerXAnchor),
-            &lt;#view1#&gt;.centerYAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.centerYAnchor),
-            &lt;#view1#&gt;.widthAnchor.constraint(equalToConstant: 100),
-            &lt;#view1#&gt;.heightAnchor.constraint(equalToConstant: 100),
+            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.trailingAnchor, constant: 0),
         ])</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>49E94800-D992-4044-8C2C-D0B2C691AB9A</string>
+	<string>60230BF6-CE04-41B8-A72D-F647E1608043</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -29,10 +24,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift active Constraint</string>
+	<string>Swift Active Safe Top Leading Bottom Trailing</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

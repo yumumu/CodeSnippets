@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lvtf</string>
+	<string>lvtextField</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -14,6 +14,7 @@
         textField.placeholder = ""
         textField.clearButtonMode = .whileEditing
         textField.font = UIFont.systemFont(ofSize: &lt;#fontSize#&gt;)
+        textField.translatesAutoresizingMaskIntoConstraints = false
         return textField
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -29,6 +30,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
