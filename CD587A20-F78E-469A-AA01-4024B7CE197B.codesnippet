@@ -3,21 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lvlabel</string>
+	<string>sConstraints</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    lazy var &lt;#name#&gt;Label: UILabel = {
-        let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 14)
-        label.textAlignment = .left
-        label.numberOfLines = 0
-        return label
-    }()</string>
+	<string>    func setupConstraints() {
+        
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0C6D0F48-3A21-4A4D-8E7A-9D61BDC8C38F</string>
+	<string>CD587A20-F78E-469A-AA01-4024B7CE197B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -25,7 +21,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift lazy var label</string>
+	<string>Swift setupConstraints</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
