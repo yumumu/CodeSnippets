@@ -3,21 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>atlwh</string>
+	<string>codingKeys</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        NSLayoutConstraint.activate([
-            &lt;#view1#&gt;.topAnchor.constraint(equalTo: &lt;#view2#&gt;.topAnchor, constant: 0),
-            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.leadingAnchor, constant: 0),
-            &lt;#view1#&gt;.widthAnchor.constraint(equalToConstant: &lt;#width#&gt;),
-            &lt;#view1#&gt;.heightAnchor.constraint(equalToConstant: &lt;#height#&gt;)
-        ])</string>
+	<string>    enum CodingKeys: String, CodingKey {
+        case &lt;#name#&gt; = "&lt;#name#&gt;"
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E9D61E3F-0AF5-430B-9AFA-276B315FDC29</string>
+	<string>3B8D5BBB-AE2D-4291-8826-D0ECA8F69571</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -25,10 +21,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Active Top Leading With Height</string>
+	<string>Swift CodingKeys </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -9,9 +9,8 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)setupSubviews {
-    
-}</string>
+	<string>#pragma mark - Getters &amp; Setters
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>44668F84-61C4-458F-A345-E7469EFF7977</string>
 	<key>IDECodeSnippetLanguage</key>

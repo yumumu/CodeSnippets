@@ -10,6 +10,12 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>    func setupSubviews() {
+        &lt;#containerView#&gt;.addSubview(&lt;#subview#&gt;)
+        
+        setupLayout() 
+    }
+    
+    func setupLayout() {
         
     }</string>
 	<key>IDECodeSnippetIdentifier</key>

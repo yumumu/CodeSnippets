@@ -3,21 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>atlwh</string>
+	<string>vcsetupSubviews</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        NSLayoutConstraint.activate([
+	<string>    func setupSubviews() {
+        &lt;#view#&gt;.addSubview(&lt;#subview#&gt;)
+        
+        setupLayout()
+    }
+    
+    func setupLayout() {
+        NSLayoutConstraint.activate([
             &lt;#view1#&gt;.topAnchor.constraint(equalTo: &lt;#view2#&gt;.topAnchor, constant: 0),
             &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.leadingAnchor, constant: 0),
-            &lt;#view1#&gt;.widthAnchor.constraint(equalToConstant: &lt;#width#&gt;),
+            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view2#&gt;.trailingAnchor, constant: 0),
             &lt;#view1#&gt;.heightAnchor.constraint(equalToConstant: &lt;#height#&gt;)
-        ])</string>
+        ])
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E9D61E3F-0AF5-430B-9AFA-276B315FDC29</string>
+	<string>2E28A0CD-8BDA-48D0-86BC-D5FEA12D9D1A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -25,10 +32,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Active Top Leading With Height</string>
+	<string>Swift VC setupSubviews</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

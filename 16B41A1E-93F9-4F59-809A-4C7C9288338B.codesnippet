@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>atlwh</string>
+	<string>lvtableView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        NSLayoutConstraint.activate([
-            &lt;#view1#&gt;.topAnchor.constraint(equalTo: &lt;#view2#&gt;.topAnchor, constant: 0),
-            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.leadingAnchor, constant: 0),
-            &lt;#view1#&gt;.widthAnchor.constraint(equalToConstant: &lt;#width#&gt;),
-            &lt;#view1#&gt;.heightAnchor.constraint(equalToConstant: &lt;#height#&gt;)
-        ])</string>
+	<string>    lazy var tableView: UITableView = {
+        let tableView = UITableView.init()
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(&lt;#CellClass#&gt;.self, forCellReuseIdentifier: NSStringFromClass(&lt;#CellClass#&gt;.self))
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+        return tableView
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E9D61E3F-0AF5-430B-9AFA-276B315FDC29</string>
+	<string>16B41A1E-93F9-4F59-809A-4C7C9288338B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -25,10 +26,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Active Top Leading With Height</string>
+	<string>Swift lazy var tableView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
