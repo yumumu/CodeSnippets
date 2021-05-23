@@ -11,8 +11,8 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>        NSLayoutConstraint.activate([
-            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.leadingAnchor, constant: 0),
-            &lt;#view1#&gt;.bottomAnchor.constraint(equalTo: &lt;#view2#&gt;.bottomAnchor, constant: 0),
+            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.leadingAnchor),
+            &lt;#view1#&gt;.bottomAnchor.constraint(equalTo: &lt;#view2#&gt;.bottomAnchor),
             &lt;#view1#&gt;.widthAnchor.constraint(equalToConstant: &lt;#width#&gt;),
             &lt;#view1#&gt;.heightAnchor.constraint(equalToConstant: &lt;#height#&gt;)
         ])</string>

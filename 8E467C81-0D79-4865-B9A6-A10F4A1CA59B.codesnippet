@@ -10,10 +10,10 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>NSLayoutConstraint.activate([
-            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.leadingAnchor, constant: 0),
-            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.trailingAnchor, constant: 0),
-            &lt;#view1#&gt;.bottomAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.bottomAnchor, constant: 0),
-            &lt;#view1#&gt;.rightAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.rightAnchor, constant: 0),
+            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.leadingAnchor),
+            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.trailingAnchor),
+            &lt;#view1#&gt;.bottomAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.bottomAnchor),
+            &lt;#view1#&gt;.rightAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.rightAnchor),
         ])</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8E467C81-0D79-4865-B9A6-A10F4A1CA59B</string>
