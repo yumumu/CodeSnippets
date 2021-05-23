@@ -17,6 +17,7 @@
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.estimatedRowHeight = &lt;#height#&gt;
         tableView.rowHeight = UITableView.automaticDimension
+        tableView.separatorStyle = .none
         return tableView
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>
