@@ -3,26 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>addChild</string>
+	<string>lvController</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        addChild(child)
-        child.view.frame = frame
-        view.addSubview(child.view)
-        child.didMove(toParent: self)</string>
+	<string>    lazy var &lt;#controller#&gt;: &lt;#CustomViweController#&gt; = {
+        let controller = &lt;#CustomViweController#&gt;.init()
+        controller.view.translatesAutoresizingMaskIntoConstraints = false
+        return controller
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EF1F8A0A-A2BA-484C-8966-670C61F8651E</string>
+	<string>A1D3E74E-7A21-4735-99A8-2DED97E119AC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift addChildViewController</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>addChildViewController</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

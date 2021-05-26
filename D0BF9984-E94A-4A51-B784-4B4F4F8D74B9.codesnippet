@@ -3,26 +3,42 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>addChild</string>
+	<string>addChildVCExtension</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        addChild(child)
-        child.view.frame = frame
+	<string>extension UIViewController {
+    // Called by the parent
+    func add(_ child: UIViewController) {
+        addChild(child)
         view.addSubview(child.view)
-        child.didMove(toParent: self)</string>
+        child.didMove(toParent: self)
+    }
+    
+    // Called by the child
+    func remove() {
+        guard parent != nil else {
+            return
+        }
+        
+        willMove(toParent: nil)
+        view.removeFromSuperview()
+        removeFromParent()
+    }
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EF1F8A0A-A2BA-484C-8966-670C61F8651E</string>
+	<string>D0BF9984-E94A-4A51-B784-4B4F4F8D74B9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift addChildViewController</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>addChildViewController</string>
+	<string>Swift Add Or Remove ViewController</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
