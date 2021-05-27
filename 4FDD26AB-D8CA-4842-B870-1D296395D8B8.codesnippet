@@ -3,22 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>atlth_top_e_bottom</string>
+	<string>vClosureNoPR</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        NSLayoutConstraint.activate([
-            &lt;#view1#&gt;.topAnchor.constraint(equalTo: &lt;#view2#&gt;.bottomAnchor),
-            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.leadingAnchor),
-            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view2#&gt;.trailingAnchor),
-            &lt;#view1#&gt;.heightAnchor.constraint(equalToConstant: &lt;#height#&gt;)
-        ])
-    }</string>
+	<string>var &lt;#name#&gt;Closure: (()-&gt;())?</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>794814D1-E585-4233-887E-1D3947192733</string>
+	<string>4FDD26AB-D8CA-4842-B870-1D296395D8B8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -26,7 +19,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Active Top Leading Trailing Height (top equalTo bottom)</string>
+	<string>Swift No Parmas Return Value Closure</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

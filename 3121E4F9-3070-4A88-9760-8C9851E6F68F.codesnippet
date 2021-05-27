@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let jsonPath = Bundle.main.path(forResource: "&lt;#fileName#&gt;", ofType: ".json")!</string>
+	<string>let jsonPath = Bundle.main.path(forResource: "&lt;#fileName#&gt;", ofType: "json")!</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3121E4F9-3070-4A88-9760-8C9851E6F68F</string>
 	<key>IDECodeSnippetLanguage</key>

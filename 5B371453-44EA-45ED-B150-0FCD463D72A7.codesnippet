@@ -3,22 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>atlth_top_e_bottom</string>
+	<string>localJson2Model_List</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        NSLayoutConstraint.activate([
-            &lt;#view1#&gt;.topAnchor.constraint(equalTo: &lt;#view2#&gt;.bottomAnchor),
-            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.leadingAnchor),
-            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view2#&gt;.trailingAnchor),
-            &lt;#view1#&gt;.heightAnchor.constraint(equalToConstant: &lt;#height#&gt;)
-        ])
-    }</string>
+	<string>let path = Bundle.main.path(forResource: "&lt;#fileName#&gt;", ofType: "json")!
+        let data = try! Data(contentsOf: URL(fileURLWithPath: path))
+        let decoder = JSONDecoder()
+//        decoder.dateDecodingStrategy = .iso8601
+let &lt;#models#&gt; = try! decoder.decode([&lt;#ModelClass#&gt;].self, from: data)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>794814D1-E585-4233-887E-1D3947192733</string>
+	<string>5B371453-44EA-45ED-B150-0FCD463D72A7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -26,7 +23,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Active Top Leading Trailing Height (top equalTo bottom)</string>
+	<string>Swift Local Json To Model - List</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
