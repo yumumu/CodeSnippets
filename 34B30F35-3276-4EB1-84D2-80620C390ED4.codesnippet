@@ -7,14 +7,13 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
-		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>        NSLayoutConstraint.activate([
-            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.leadingAnchor),
-            &lt;#view1#&gt;.bottomAnchor.constraint(equalTo: &lt;#view2#&gt;.bottomAnchor),
-            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view2#&gt;.trailingAnchor),
-            &lt;#view1#&gt;.heightAnchor.constraint(equalToConstant: &lt;#height#&gt;)
+            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view#&gt;.leadingAnchor),
+            &lt;#view1#&gt;.bottomAnchor.constraint(equalTo: &lt;#view#&gt;.bottomAnchor),
+            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view#&gt;.trailingAnchor),
+            &lt;#view1#&gt;.heightAnchor.constraint(equalToConstant: &lt;#view#&gt;)
         ])</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>34B30F35-3276-4EB1-84D2-80620C390ED4</string>
@@ -25,7 +24,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Active Leading Bottom Trailing Height</string>
+	<string>Swift Active Leading Bottom Trailing Height (No Safe)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -6,13 +6,12 @@
 	<string>atlwh</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>        NSLayoutConstraint.activate([
-            &lt;#view1#&gt;.topAnchor.constraint(equalTo: &lt;#view2#&gt;.topAnchor),
-            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.leadingAnchor),
+            &lt;#view1#&gt;.topAnchor.constraint(equalTo: &lt;#view#&gt;.topAnchor),
+            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view#&gt;.leadingAnchor),
             &lt;#view1#&gt;.widthAnchor.constraint(equalToConstant: &lt;#width#&gt;),
             &lt;#view1#&gt;.heightAnchor.constraint(equalToConstant: &lt;#height#&gt;)
         ])</string>
@@ -25,7 +24,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Active Top Leading With Height</string>
+	<string>Swift Active Top Leading With Height (No Safe)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

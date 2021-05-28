@@ -7,12 +7,11 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
-		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>        NSLayoutConstraint.activate([
-            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.leadingAnchor),
-            &lt;#view1#&gt;.bottomAnchor.constraint(equalTo: &lt;#view2#&gt;.bottomAnchor),
+            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view#&gt;.leadingAnchor),
+            &lt;#view1#&gt;.bottomAnchor.constraint(equalTo: &lt;#view#&gt;.bottomAnchor),
             &lt;#view1#&gt;.widthAnchor.constraint(equalToConstant: &lt;#width#&gt;),
             &lt;#view1#&gt;.heightAnchor.constraint(equalToConstant: &lt;#height#&gt;)
         ])</string>
@@ -25,7 +24,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Active Leading Bottom Width Height</string>
+	<string>Swift Active Leading Bottom Width Height (No safe)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

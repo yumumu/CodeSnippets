@@ -3,17 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>activeLTBWConstraints</string>
+	<string>aLTBWConstraints</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>        NSLayoutConstraint.activate([
-            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.leadingAnchor, constant: 0),
-            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.trailingAnchor, constant: 0),
-            &lt;#view1#&gt;.bottomAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.bottomAnchor, constant: 0),
+            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view#&gt;.safeAreaLayoutGuide.leadingAnchor),
+            &lt;#view1#&gt;.bottomAnchor.constraint(equalTo: &lt;#view#&gt;.safeAreaLayoutGuide.bottomAnchor),
+            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view#&gt;.safeAreaLayoutGuide.trailingAnchor),
             &lt;#view1#&gt;.widthAnchor.constraint(equalToConstant: &lt;#width#&gt;)
         ])</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -23,9 +22,9 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift Active eading trailing bottom width Anchor</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Active </string>
+	<string>Swift Active Leading Bottom Trailing  Width Anchor (Safe)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

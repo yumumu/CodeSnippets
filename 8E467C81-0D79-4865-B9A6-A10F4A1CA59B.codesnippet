@@ -3,18 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>active4Constraints</string>
+	<string>atlbt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLayoutConstraint.activate([
-            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.leadingAnchor),
-            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.trailingAnchor),
-            &lt;#view1#&gt;.bottomAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.bottomAnchor),
-            &lt;#view1#&gt;.rightAnchor.constraint(equalTo: &lt;#view2#&gt;.safeAreaLayoutGuide.rightAnchor),
+	<string>        NSLayoutConstraint.activate([
+            &lt;#view1#&gt;.topAnchor.constraint(equalTo: &lt;#view#&gt;.topAnchor),
+            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view#&gt;.leadingAnchor),
+            &lt;#view1#&gt;.bottomAnchor.constraint(equalTo: &lt;#view#&gt;.bottomAnchor),
+            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view#&gt;.trailingAnchor),
         ])</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8E467C81-0D79-4865-B9A6-A10F4A1CA59B</string>
@@ -25,7 +24,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Active Constraint</string>
+	<string>Swift Active Top Leading Bottom Trailing (No Safe)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

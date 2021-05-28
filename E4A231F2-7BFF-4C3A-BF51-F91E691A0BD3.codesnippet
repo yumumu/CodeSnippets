@@ -3,32 +3,43 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cvd</string>
+	<string>cvcelltemplate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    // MARK: UICollectionViewDelegate
+	<string>    override init(frame: CGRect) {
+        super.init(frame: .zero)
+        setupSubviews()
+    }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    func setupSubviews() {
+        contentView.addSubview(&lt;#subview#&gt;)
+        
+        setupLayout()
+    }
+    
+    func setupLayout() {
         
     }
     
-    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
-        
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>695424DE-F323-475A-AC77-2010DDA924BB</string>
+	<string>E4A231F2-7BFF-4C3A-BF51-F91E691A0BD3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>UICollectionViewDelegate snippet for Swift</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift UICollectionViewDelegate</string>
+	<string>Swift CollectionView Cell Template</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
