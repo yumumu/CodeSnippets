@@ -16,7 +16,12 @@
     }
     
     func setupLayout() {
-        
+        NSLayoutConstraint.activate([
+            &lt;#view1#&gt;.topAnchor.constraint(equalTo: &lt;#view2#&gt;.topAnchor),
+            &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view2#&gt;.leadingAnchor),
+            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view2#&gt;.trailingAnchor),
+            &lt;#view1#&gt;.heightAnchor.constraint(equalToConstant: &lt;#height#&gt;)
+        ])
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F404977F-52E6-46F6-952B-C0C725DB8597</string>
