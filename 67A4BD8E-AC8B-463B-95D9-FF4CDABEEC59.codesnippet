@@ -3,16 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fplet</string>
+	<string>up_tv_cv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>fileprivate let &lt;#name#&gt; = &lt;#value#&gt;
-</string>
+	<string>    func userPressed(at indexPath: IndexPath) {
+        
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5A30CF49-5EFF-49BB-98AB-14382E98D5EB</string>
+	<string>67A4BD8E-AC8B-463B-95D9-FF4CDABEEC59</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -20,10 +21,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift fileprivate let</string>
+	<string>Swift userPressed at indexPath</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

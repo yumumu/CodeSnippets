@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    lazy var &lt;#name#&gt;TextField: UITextField = {
+	<string>    private lazy var &lt;#name#&gt;TextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = ""
         textField.clearButtonMode = .whileEditing

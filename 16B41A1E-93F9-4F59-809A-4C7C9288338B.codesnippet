@@ -9,11 +9,12 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    lazy var tableView: UITableView = {
+	<string>    private let cellReuseIdentifier = "tvCell"
+    private lazy var tableView: UITableView = {
         let tableView = UITableView.init()
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.register(&lt;#CellClass#&gt;.self, forCellReuseIdentifier: NSStringFromClass(&lt;#CellClass#&gt;.self))
+        tableView.register(&lt;#CellClass#&gt;.self, forCellReuseIdentifier:cellReuseIdentifier)
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.estimatedRowHeight = &lt;#height#&gt;
         tableView.rowHeight = UITableView.automaticDimension
