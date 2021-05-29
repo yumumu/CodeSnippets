@@ -13,7 +13,7 @@
         let button = UIButton.init(type: .custom)
         button.setTitle("&lt;#title#&gt;", for: .normal)
         button.setTitle("&lt;#selectedTitle#&gt;", for: .selected)
-        button.addTarget(self, action: #selector(buttonDidTap(sender:)), for: .touchUpInside)
+        button.addTarget(self, action: #selector(buttonDidPress(sender:)), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()

@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>buttonDidTap</string>
+	<string>buttonDidPress</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    @objc func buttonDidTap(sender: UIButton) {
+	<string>    @objc func buttonDidPress(sender: UIButton) {
         print(#file, #function, #line)
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -21,7 +21,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift buttonDidTap</string>
+	<string>Swift buttonDidPress</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

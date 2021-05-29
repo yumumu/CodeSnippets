@@ -10,6 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>    private let cellReuseIdentifier = "tvCell"
+    
     private lazy var tableView: UITableView = {
         let tableView = UITableView.init()
         tableView.delegate = self
