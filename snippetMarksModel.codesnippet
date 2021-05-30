@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>wself</string>
+	<string>snippetMarksModel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self]</string>
+	<string>// MARK: - Attributes
+
+// MARK: - Initializers
+
+// MARK: - Parsers</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DABD58EF-9B6B-47D9-BFB9-929865FE223E</string>
+	<string>11BC8CB4-A716-4E24-AEB8-B5A312FF56D7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>MARKs to use in your model or entity</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift weak self [weak self]</string>
+	<string>Model MARKs</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

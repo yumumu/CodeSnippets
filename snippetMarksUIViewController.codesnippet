@@ -3,24 +3,38 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>wself</string>
+	<string>snippetMarksUIViewController</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self]</string>
+	<string>// MARK: - Properties
+
+// MARK: - IBOutlets
+
+// MARK: - Life cycle
+
+// MARK: - Set up
+
+// MARK: - IBActions
+
+// MARK: - Actions
+
+// MARK: - Navigation
+
+// MARK: - Network Manager calls
+
+// MARK: - Extensions
+  </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DABD58EF-9B6B-47D9-BFB9-929865FE223E</string>
+	<string>815B1E31-537D-46BF-9A94-66398479A921</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>MARKs to use in your UIViewController</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift weak self [weak self]</string>
+	<string>UIViewController MARKs</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

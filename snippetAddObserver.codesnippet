@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>wself</string>
+	<string>snippetAddObserver</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self]</string>
+	<string>NotificationCenter.default.addObserver(&lt;#T##observer: Any##Any#&gt;, selector: &lt;#T##Selector#&gt;, name: &lt;#T##NSNotification.Name?#&gt;, object: &lt;#T##Any?#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DABD58EF-9B6B-47D9-BFB9-929865FE223E</string>
+	<string>6C261186-38AD-4EEF-A73C-8A25EBB2B31A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Creates an observer with selector, NSNotification.Name and object</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift weak self [weak self]</string>
+	<string>Add observer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

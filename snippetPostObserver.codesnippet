@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>wself</string>
+	<string>snippetPostObserver</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self]</string>
+	<string>NotificationCenter.default.post(name: &lt;#T##NSNotification.Name#&gt;, object: &lt;#T##Any?#&gt;, userInfo: &lt;#T##[AnyHashable : Any]?#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DABD58EF-9B6B-47D9-BFB9-929865FE223E</string>
+	<string>6ADFF0B1-2CC7-4FFC-9414-3A4722374D50</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Posts a notification with NSNotification.Name, object and userInfo</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift weak self [weak self]</string>
+	<string>Post notification</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

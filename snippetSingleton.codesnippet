@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>wself</string>
+	<string>snippetSingleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self]</string>
+	<string>class &lt;#SingletonClassName#&gt; {
+  static let shared = &lt;#SingletonClassName#&gt;()
+    
+  private init() {}
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DABD58EF-9B6B-47D9-BFB9-929865FE223E</string>
+	<string>3BE9278C-FB49-4D9F-AD5B-E61435D6DCA9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Creates a singleton class with a private init</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift weak self [weak self]</string>
+	<string>Singleton class</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
