@@ -3,24 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>xae</string>
+	<string>vaView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>CodeExpression</string>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>XCTAssertEqual(&lt;#expected#&gt;, actual, &lt;#message#&gt;);</string>
+	<string>        view.addSubview(&lt;#T##view: UIView##UIView#&gt;)
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>45DB8B47-F039-4071-84ED-DBE46D2FF342</string>
+	<string>9683307C-6698-47F0-BA44-983C519921CD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Assert equals for XCTest</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>XCT Assert Equals</string>
+	<string>Swift view.addSubview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

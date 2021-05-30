@@ -13,7 +13,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BE29A085-ACB5-4947-A534-0D9D38B400BE</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Assert false for XCTest</string>
 	<key>IDECodeSnippetTitle</key>

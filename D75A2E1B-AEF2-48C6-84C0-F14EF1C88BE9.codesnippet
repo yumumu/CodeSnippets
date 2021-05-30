@@ -19,7 +19,7 @@
     // MARK: UITableViewDataSource
     
     func numberOfSections(in tableView: UITableView) -&gt; Int {
-        return &lt;#numberOfSections#&gt;
+        return 1
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
@@ -27,7 +27,7 @@
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: &lt;#identifier#&gt;, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier, for: indexPath)
         configureCell(cell: cell, forRowAt: indexPath)
         return cell
     }

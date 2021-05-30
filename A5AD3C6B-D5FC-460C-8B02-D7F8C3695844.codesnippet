@@ -10,10 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>        NSLayoutConstraint.activate([
-            &lt;#view1#&gt;.trailingAnchor.constraint(equalTo: &lt;#view#&gt;.trailingAnchor),
-            &lt;#view1#&gt;.bottomAnchor.constraint(equalTo: &lt;#view#&gt;.bottomAnchor),
-            &lt;#view1#&gt;.widthAnchor.constraint(equalToConstant: &lt;#width#&gt;),
-            &lt;#view1#&gt;.heightAnchor.constraint(equalToConstant: &lt;#height#&gt;)
+            
         ])</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A5AD3C6B-D5FC-460C-8B02-D7F8C3695844</string>
