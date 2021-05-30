@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    lazy var &lt;#name#&gt;Button: UIButton = {
+	<string>    private lazy var &lt;#name#&gt;Button: UIButton = {
         let button = UIButton.init(type: .custom)
         button.setTitle("&lt;#title#&gt;", for: .normal)
         button.setTitleColor(.black, for: .normal)

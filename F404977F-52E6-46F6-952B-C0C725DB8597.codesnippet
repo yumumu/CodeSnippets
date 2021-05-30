@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setupSubviews</string>
+	<string>setupView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    func setupSubviews() {
+	<string>    private func setupView() {
         &lt;#containerView#&gt;.addSubview(&lt;#subview#&gt;)
         
         setupLayout() 
     }
     
-    func setupLayout() {
+    private func setupLayout() {
         NSLayoutConstraint.activate([
             &lt;#view1#&gt;.topAnchor.constraint(equalTo: &lt;#view#&gt;.topAnchor),
             &lt;#view1#&gt;.leadingAnchor.constraint(equalTo: &lt;#view#&gt;.leadingAnchor),
@@ -32,7 +32,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift setupSubviews</string>
+	<string>Swift setupView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
