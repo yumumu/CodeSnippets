@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>aXYWH</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        NSLayoutConstraint.activate([
+            &lt;#subview#&gt;.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            &lt;#subview#&gt;.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            &lt;#subview#&gt;.widthAnchor.constraint(equalToConstant: &lt;#width#&gt;),
+            &lt;#subview#&gt;.heightAnchor.constraint(equalToConstant: &lt;#height#&gt;)
+        ])</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>76CC9FD1-3079-4C00-A8F2-2BA1F3544751</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift Active center X Y width Height</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
