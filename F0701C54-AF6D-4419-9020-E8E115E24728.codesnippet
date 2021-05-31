@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lvTextview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    private lazy var &lt;#name#&gt;TextView: UITextView = {
+        let textView = UITextView()
+        textView.backgroundColor = .systemGray
+        textView.backgroundColor = .white
+        textView.textAlignment = .left
+        textView.layer.cornerRadius = 5.0
+        textView.layer.masksToBounds = true
+        textView.isEditable = true
+        textView.keyboardType = .default
+        textView.isScrollEnabled = true
+        textView.translatesAutoresizingMaskIntoConstraints = false
+        return textView
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F0701C54-AF6D-4419-9020-E8E115E24728</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift lazy var textView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lvProgressView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    final lazy var progressView: UIProgressView = {
+        let progressView = UIProgressView()
+        progressView.progress = 0.0;
+        progressView.tintColor = .systemYellow
+        progressView.trackTintColor = .systemRed
+        progressView.layer.cornerRadius = 5.0
+        progressView.layer.masksToBounds = true
+        progressView.translatesAutoresizingMaskIntoConstraints = false
+        
+        // add width
+//        progressView.transform = CGAffineTransformMakeScale(1, 10);
+        // vertical
+//        progressView.transform = CGAffineTransformRotate(pv.transform, - M_PI_2);
+        // 添加图片 设置拉伸的竖线
+//        progressView.trackImage = UIImage.init(named: "trackImage")?.stretchableImage(withLeftCapWidth: 50, topCapHeight: 0)
+//        progressView.progressImage = UIImage.init(named: "trackImage")?.stretchableImage(withLeftCapWidth: 5, topCapHeight: 0)
+        
+        return progressView
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>507CA24A-4877-4D2A-9387-B0EFBB273864</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift lazy ver </string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
