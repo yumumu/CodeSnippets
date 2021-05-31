@@ -6,6 +6,7 @@
 	<string>wself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>ClassImplementation</string>
 		<string>CodeExpression</string>
 		<string>CodeBlock</string>
 	</array>

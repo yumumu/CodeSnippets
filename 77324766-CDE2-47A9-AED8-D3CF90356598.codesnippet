@@ -3,41 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>snippetMarksUIViewController</string>
+	<string>lvViewModel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Properties
-
-// MARK: - IBOutlets
-
-// MARK: - Life Cycle
-
-// MARK: - Set Up
-
-// MARK: - IBActions
-
-// MARK: - Actions
-
-// MARK: - Navigation
-
-// MARK: - Network Manager Calls
-
-// MARK: - Extensions
-  </string>
+	<string>    lazy var viewModel: &lt;#ViewModelClass#&gt; = {
+        return &lt;#ViewModelClass#&gt;()
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>815B1E31-537D-46BF-9A94-66398479A921</string>
+	<string>77324766-CDE2-47A9-AED8-D3CF90356598</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MARKs to use in your UIViewController</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIViewController MARKs</string>
+	<string>Swift lazy var ViewModel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
