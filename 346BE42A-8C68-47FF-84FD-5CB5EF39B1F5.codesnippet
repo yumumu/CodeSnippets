@@ -3,19 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lvController</string>
+	<string>fontPreferredFont</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    private lazy var &lt;#controller#&gt;: &lt;#CustomViweController#&gt; = {
-        let controller = &lt;#CustomViweController#&gt;.init()
-        controller.view.translatesAutoresizingMaskIntoConstraints = false
-        return controller
-    }()</string>
+	<string>UIFont.preferredFont(forTextStyle: .&lt;#title1#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A1D3E74E-7A21-4735-99A8-2DED97E119AC</string>
+	<string>346BE42A-8C68-47FF-84FD-5CB5EF39B1F5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -23,10 +19,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift lazy var controller</string>
+	<string>Swift UIFont preferredFont</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
