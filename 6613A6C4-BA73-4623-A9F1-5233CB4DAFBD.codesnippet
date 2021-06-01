@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vClosureNoPR</string>
+	<string>dict2Model</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>var &lt;#name#&gt;Closure: (() -&gt; ())?</string>
+	<string>    init(dictionary: [String: Any]) throws {
+        self = try JSONDecoder().decode(&lt;#ClassName#&gt;.self, from: JSONSerialization.data(withJSONObject: dictionary))
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4FDD26AB-D8CA-4842-B870-1D296395D8B8</string>
+	<string>6613A6C4-BA73-4623-A9F1-5233CB4DAFBD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift No Parmas Return Value Closure</string>
+	<string>Swift Dict2Model</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
