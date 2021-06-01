@@ -3,28 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>buttonDidTap</string>
+	<string>bAddTarget</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    @objc private func buttonDidTap(sender: UIButton) {
-        print(#file, #function, #line)
-    }</string>
+	<string>            &lt;#button#&gt;.addTarget(self, action: #selector(buttonDidTap(sender:)), for: .touchUpInside)
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FB39D3A3-9EE3-4427-A306-049E53CD5974</string>
+	<string>5CB4C89A-EE5C-4470-9CA4-FDBCE40A49BF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift buttonDidTap</string>
+	<string>Swift button.addTarget</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

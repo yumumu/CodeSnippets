@@ -14,7 +14,7 @@
         button.setTitle("&lt;#title#&gt;", for: .normal)
         button.setTitleColor(.black, for: .normal)
         button.setTitle("&lt;#selectedTitle#&gt;", for: .selected)
-        button.addTarget(self, action: #selector(buttonDidPress(sender:)), for: .touchUpInside)
+        button.addTarget(self, action: #selector(buttonDidTap(sender:)), for: .touchUpInside)
         button.layer.cornerRadius = 10.0
         button.layer.borderWidth = 1.0
         button.layer.masksToBounds = true
