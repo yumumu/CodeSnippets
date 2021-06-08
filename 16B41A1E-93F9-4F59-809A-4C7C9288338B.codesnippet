@@ -6,6 +6,7 @@
 	<string>lvtableView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>CodeBlock</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
