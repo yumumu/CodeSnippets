@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>centerLastRow</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    override func layoutAttributesForElements(in rect: CGRect) -&gt; [UICollectionViewLayoutAttributes]? {
+        guard var elementAttributes = super.layoutAttributesForElements(in: rect) else { return nil }
+        guard elementAttributes.count &gt; 0 else { return elementAttributes }
+
+        elementAttributes = elementAttributes.map { $0.copy() as! UICollectionViewLayoutAttributes }
+
+        let minY = elementAttributes.last!.frame.minY
+        let lastRowAttrs = elementAttributes.reversed().filter { $0.frame.minY == minY }
+
+        guard lastRowAttrs.count &lt; 3,
+            let first = elementAttributes.first,
+            let last = elementAttributes.last
+        else {
+            return elementAttributes
+        }
+
+        let horizontalPadding = rect.width - first.frame.minX - last.frame.maxX
+        let horizontalShift = horizontalPadding / 2.0
+
+        for attrs in lastRowAttrs {
+            attrs.frame = attrs.frame.offsetBy(dx: horizontalShift, dy: 0)
+        }
+
+        return elementAttributes
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B64DC954-5B26-4AAE-8012-32BAA9F3F2D8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string> 需要根据实际情况修改</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollectionViewLayout Center Last Row</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
