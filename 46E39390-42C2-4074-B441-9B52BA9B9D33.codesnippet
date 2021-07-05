@@ -3,23 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cvRegisterHeader</string>
+	<string>tabbarAddChildVC</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        private let headerReuseIdentifier = "headerViewID"
-        collectionView.register(CollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: headerReuseIdentifier)</string>
+	<string>    func addChildVC(_ childVC: UIViewController, title: String, image: String, selectedImage: String) {
+        childVC.title = title
+        childVC.tabBarItem.image = UIImage.init(named: image)
+        childVC.tabBarItem.selectedImage = UIImage.init(named: selectedImage)
+        
+        let navigationVC = UINavigationController.init(rootViewController: childVC)
+        addChild(navigationVC)
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8AA815ED-45DF-40C9-B85B-DA095922C9CF</string>
+	<string>46E39390-42C2-4074-B441-9B52BA9B9D33</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Register Header Reuse Identifier</string>
+	<string>Swift TabBar Add ChildVC</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

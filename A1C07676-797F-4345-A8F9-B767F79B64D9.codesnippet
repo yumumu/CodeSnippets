@@ -6,14 +6,14 @@
 	<string>lvCollectionView_ReuseIdentifer</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
 		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    private let cellReuseIdentifier = "&lt;#CollectionViewCell#&gt;"
+	<string>    private let cellReuseIdentifier = "CVReuseID"
     
     private lazy var collectionView: UICollectionView = {
-        let layout = &lt;#Layout#&gt;()
+        let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
         layout.itemSize = CGSize.init(width: 50, height: 50)
 //        layout.minimumInteritemSpacing = 10.0

@@ -3,23 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cvRegisterHeader</string>
+	<string>nbSetting</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        private let headerReuseIdentifier = "headerViewID"
-        collectionView.register(CollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: headerReuseIdentifier)</string>
+	<string>        let navigationBar = navigationController?.navigationBar
+        
+        navigationBar?.barTintColor = .systemBlue
+        navigationBar?.isTranslucent = false
+        navigationBar?.setValue(true, forKey: "hidesShadow")
+        
+        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        navigationBar?.titleTextAttributes = textAttributes</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8AA815ED-45DF-40C9-B85B-DA095922C9CF</string>
+	<string>10E62326-D597-4388-AFB5-E82D7C3BF9B2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Register Header Reuse Identifier</string>
+	<string>Swift NavigationBar Setting</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
